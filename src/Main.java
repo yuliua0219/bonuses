@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 100;
-        int y = 1500;
-        int amount = x + y;
+        int balance = 100;
+        int topUp = 1500;
+        int amount = balance + topUp;
         int bonus;
-        if (y > 1000) {
-            bonus = y / 100;
+        if (topUp > 1000) {
+            bonus = topUp / 100;
         } else {
             bonus = 0;
         }
